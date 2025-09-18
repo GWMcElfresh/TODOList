@@ -1,0 +1,162 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2024-01-01T00:00:00Z",
+    "last_updated": "2025-09-18T23:43:02.062938Z",
+    "total_tasks": 7,
+    "completed_tasks": 1
+  },
+  "templates": {
+    "feature": {
+      "title": "Feature: [Feature Name]",
+      "description": "Implement [feature description]",
+      "priority": "medium",
+      "status": "todo",
+      "labels": [
+        "feature",
+        "enhancement"
+      ],
+      "assignee": "",
+      "due_date": "",
+      "estimated_hours": 0
+    },
+    "bug": {
+      "title": "Bug: [Bug Description]",
+      "description": "Fix issue with [bug details]",
+      "priority": "high",
+      "status": "todo",
+      "labels": [
+        "bug",
+        "urgent"
+      ],
+      "assignee": "",
+      "due_date": "",
+      "estimated_hours": 0
+    },
+    "documentation": {
+      "title": "Docs: [Documentation Topic]",
+      "description": "Create/update documentation for [topic]",
+      "priority": "low",
+      "status": "todo",
+      "labels": [
+        "documentation"
+      ],
+      "assignee": "",
+      "due_date": "",
+      "estimated_hours": 0
+    }
+  },
+  "tasks": [
+    {
+      "id": "0c4a7f22-3783-4e99-9771-8704f36c4b11",
+      "title": "Set up project repository",
+      "description": "Initialize the TODO list project with proper structure",
+      "priority": "high",
+      "status": "done",
+      "labels": [
+        "setup",
+        "initial"
+      ],
+      "assignee": "",
+      "due_date": "",
+      "estimated_hours": 0,
+      "created_at": "2025-09-18T23:40:40.604921Z",
+      "updated_at": "2025-09-18T23:43:02.062931Z"
+    },
+    {
+      "id": "d30c2a92-bbd7-4411-ab5a-57b4e1bdd899",
+      "title": "Bug: Fix JSON parsing issue",
+      "description": "Fix edge case in JSON parsing when handling malformed data",
+      "priority": "high",
+      "status": "todo",
+      "labels": [
+        "bug",
+        "urgent"
+      ],
+      "assignee": "",
+      "due_date": "",
+      "estimated_hours": 0,
+      "created_at": "2025-09-18T23:40:47.866374Z",
+      "updated_at": "2025-09-18T23:40:47.866381Z"
+    },
+    {
+      "id": "a61ee8d3-42e8-4374-96d5-6e311b78a6e6",
+      "title": "Feature: Add task search functionality",
+      "description": "Implement [feature description]",
+      "priority": "medium",
+      "status": "todo",
+      "labels": [
+        "feature",
+        "enhancement"
+      ],
+      "assignee": "",
+      "due_date": "",
+      "estimated_hours": 0,
+      "created_at": "2025-09-18T23:40:54.812669Z",
+      "updated_at": "2025-09-18T23:40:54.812675Z"
+    },
+    {
+      "id": "61696981-a537-48ca-9c91-1eacf5dd0d13",
+      "title": "Docs: Create user guide",
+      "description": "Create/update documentation for [topic]",
+      "priority": "low",
+      "status": "todo",
+      "labels": [
+        "documentation"
+      ],
+      "assignee": "",
+      "due_date": "",
+      "estimated_hours": 0,
+      "created_at": "2025-09-18T23:40:54.848563Z",
+      "updated_at": "2025-09-18T23:40:54.848569Z"
+    },
+    {
+      "id": "c5492fda-d50e-410b-bcce-0697e172b37b",
+      "title": "Review security policies",
+      "description": "Audit and update security policies for the project",
+      "priority": "high",
+      "status": "todo",
+      "labels": [
+        "security",
+        "policy"
+      ],
+      "assignee": "",
+      "due_date": "2024-02-15",
+      "estimated_hours": 4,
+      "created_at": "2025-09-18T23:41:54.007690Z",
+      "updated_at": "2025-09-18T23:41:54.007697Z"
+    },
+    {
+      "id": "fe5f1254-d0e3-4b9e-9124-5619e78ed2da",
+      "title": "Optimize database queries",
+      "description": "Improve performance of slow database operations",
+      "priority": "medium",
+      "status": "todo",
+      "labels": [
+        "performance",
+        "database"
+      ],
+      "assignee": "",
+      "due_date": "",
+      "estimated_hours": 8,
+      "created_at": "2025-09-18T23:41:54.007710Z",
+      "updated_at": "2025-09-18T23:41:54.007712Z"
+    },
+    {
+      "id": "3adbd3e7-0299-4a6c-b229-1c5e413c76c2",
+      "title": "Set up monitoring dashboard",
+      "description": "Create monitoring dashboard for system health",
+      "priority": "medium",
+      "status": "in_progress",
+      "labels": [
+        "monitoring",
+        "dashboard"
+      ],
+      "assignee": "",
+      "due_date": "",
+      "estimated_hours": 6,
+      "created_at": "2025-09-18T23:41:54.007717Z",
+      "updated_at": "2025-09-18T23:41:54.007719Z"
+    }
+  ]
+}
