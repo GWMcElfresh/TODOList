@@ -1,13 +1,27 @@
-# 📋 TODOList Project Board
+# 📋 [TODOList/Project Board](https://github.com/users/GWMcElfresh/projects/2)
+
+[Link to the TODO list](https://github.com/users/GWMcElfresh/projects/2)
 
 A JSON-based TODO list management system with GitHub project board synchronization.
 
-*"lasciate ogne speranza voi ch'intrate"* - but with better task tracking! 😄
+*lasciate ogne speranza voi ch'intrate* 
 
-## 🚀 Features
+<img width="1030" height="478" alt="image" src="https://github.com/user-attachments/assets/b1b8dfec-cac2-4297-a0b8-c3aed5ca3ad0" />
+
+## Usage Principles
+
+Most editing happens at the Kanban level, so the key is populating. 
+- This TODOList populates in three modes:
+   1. JSON-backed tasks: a TODO list is stored in a JSON file format for direct/programmatic access.
+      - CLI is also supported/documented below.
+   2. Issues syncing: issues created in this repo will populate on the Kanban board.
+   3. Directly into the Kanban board, like David Anderson intended. 
+
+
+## General Scheme
 
 - **JSON-based storage** - All tasks stored in a structured JSON format
-- **GitHub Actions integration** - Automatically syncs tasks to GitHub Issues/Project Board
+- **GitHub Actions integration** - Automatically syncs tasks to gitHub issues, then to a [Kanban Board](https://github.com/users/GWMcElfresh/projects/2)
 - **Template system** - Pre-built templates for common task types (features, bugs, documentation)
 - **Task concatenation** - Easy merging of task lists
 - **Priority & status tracking** - Organize tasks by priority and completion status
@@ -118,7 +132,7 @@ sync_to_github.py       # GitHub synchronization script
 }
 ```
 
-## 🔗 Task Concatenation
+## Task Concatenation
 
 To merge tasks from another TODO list:
 
@@ -136,14 +150,15 @@ with open('external_tasks.json', 'r') as f:
 manager.concatenate_tasks(external_data)
 ```
 
-## 🤝 Contributing
+## Giving GW Things TODO
 
-1. Add your tasks using the CLI or by editing `todo_list.json`
+0. Opening an issue directly populates a task without needing to access the board programmatically. 
+1. Add your tasks using the CLI or by editing `todo_list.json`.
 2. Commit changes to trigger GitHub Actions sync
 3. Tasks will automatically appear as GitHub issues
 4. Use GitHub project boards to organize and track progress
 
-## 📊 Example Workflow
+## Example 
 
 ```bash
 # Start a new feature
