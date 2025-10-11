@@ -1,6 +1,6 @@
-# 📋 [TODOList/Project Board](https://github.com/users/GWMcElfresh/projects/2)
+# 📋 [TODOList/Project Board](https://github.com/users/GWMcElfresh/projects/2/views/3)
 
-[Link to the TODO list](https://github.com/users/GWMcElfresh/projects/2)
+[Link to the TODO list](https://github.com/users/GWMcElfresh/projects/2/views/3)
 
 A JSON-based TODO list management system with GitHub project board synchronization.
 
@@ -21,7 +21,7 @@ Most editing happens at the Kanban level, so the key is populating.
 ## General Scheme
 
 - **JSON-based storage** - All tasks stored in a structured JSON format
-- **GitHub Actions integration** - Automatically syncs tasks to gitHub issues, then to a [Kanban Board](https://github.com/users/GWMcElfresh/projects/2)
+- **GitHub Actions integration** - Automatically syncs tasks to gitHub issues, then to a [Kanban Board](https://github.com/users/GWMcElfresh/projects/2/views/3)
 - **Template system** - Pre-built templates for common task types (features, bugs, documentation)
 - **Task concatenation** - Easy merging of task lists
 - **Priority & status tracking** - Organize tasks by priority and completion status
